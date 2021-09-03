@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	log.Println("BRUMBRUM")
 
 	if bd.CheckConnection() == 0 {
 		log.Println("Sin conexión a BD")
